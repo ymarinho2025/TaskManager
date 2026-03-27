@@ -1,0 +1,8 @@
+.vscode/
+*.exe
+*.out
+*.o
+*.obj
+*.log
+*.tmp
+*.ps1
