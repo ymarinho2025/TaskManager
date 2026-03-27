@@ -50,32 +50,31 @@ Executa comandos diretamente no sistema operacional.
 ```c
 system("tasklist");
 
-system("cls");
-cls é um comando do CMD (Command Prompt)
-Ele apaga todo o conteúdo exibido na tela
-Usado para manter a interface limpa
+// system("cls");
+// cls é um comando do CMD (Command Prompt)
+// Ele apaga todo o conteúdo exibido na tela
+// Usado para manter a interface limpa
 
-getch(); da lib (include <conio.h>)
-Captura uma tecla pressionada pelo usuário sem necessidade de pressionar ENTER.
-getchar() → precisa pressionar ENTER
-getch() → captura instantaneamente
+getch(); // da lib (include <conio.h>)
+// Captura uma tecla pressionada pelo usuário sem necessidade de pressionar ENTER.
+// getchar() → precisa pressionar ENTER
+// getch() → captura instantaneamente
 
 strcpy()
-Copia uma string para outra.
+// Copia uma string para outra.
 
 strcat()
-Concatena (junta) duas strings.
+// Concatena (junta) duas strings.
 
-do System(""):
+// do System(""):
+// start:
+// Inicia um programa.
 
-start:
-Inicia um programa.
+// taskkill:
+// Encerra um processo pelo nome.
 
-taskkill:
-Encerra um processo pelo nome.
+// tasklist:
+// Lista todos os processos em execução.
 
-tasklist:
-Lista todos os processos em execução.
-
-cls:
-Limpa a tela do terminal.
+// cls:
+// Limpa a tela do terminal.
